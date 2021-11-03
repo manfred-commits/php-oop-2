@@ -1,6 +1,8 @@
 <?php
+require_once __DIR__."/UtentiPremium.php";
 
 class Utenti{
+
     protected $nome;
     protected $email;
     protected $sconto=0;
