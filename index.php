@@ -9,5 +9,7 @@ var_dump($firstCard);
 $mrBlueSky= new Utenti("Samuele Madrigali","samuelemadrigali@gmail.com",0,$firstCard);
 var_dump($mrBlueSky);
 $mrNight=new UtentiPremium("Sam","sam@gmail.com",$firstCard);
+
+$mrNight->setCarta("5191 2312 3456 7890");
 var_dump($mrNight);
 
