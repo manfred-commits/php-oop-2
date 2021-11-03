@@ -3,10 +3,20 @@
 class UtentiPremium extends Utenti{
     protected $sconto=20;
 
-    public function __construct($_nome,$_email)
+    public function __construct($_nome,$_email,$_carta)
     {   
-        $this->nome=$_nome;
-        $this->email=$_email;
+        parent::__construct($_nome,$_email,$_carta=null);
+        $this->carta=$_carta;
     }
+    public function setSconto($_sconto)
+    {
+        $this->sconto=$_sconto;
+    }
+    public function getSconto()
+    {
+        return $this->sconto;
+    }
+    
+
 
 }
