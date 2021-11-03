@@ -1,5 +1,7 @@
 <?php
 
-class Prodotti{
+class Prodotti extends Shop{
+    protected $nome;
+    protected $prezzo;
     
 }
