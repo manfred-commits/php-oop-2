@@ -1,6 +1,6 @@
 <?php
 
-class Utenti extends Shop{
+class Utenti{
     protected $nome;
     protected $email;
     protected $sconto=0;

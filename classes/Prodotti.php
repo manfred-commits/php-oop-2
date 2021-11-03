@@ -1,6 +1,6 @@
 <?php
 
-class Prodotti extends Shop{
+class Prodotti{
     protected $nome;
     protected $prezzo;
     
