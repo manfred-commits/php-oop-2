@@ -5,8 +5,7 @@ class UtentiPremium extends Utenti{
 
     public function __construct($_nome,$_email,$_carta)
     {   
-        parent::__construct($_nome,$_email,$_carta=null);
-        $this->carta=$_carta;
+        parent::__construct($_nome,$_email,$_carta);
     }
     public function setSconto($_sconto)
     {

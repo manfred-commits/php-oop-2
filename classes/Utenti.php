@@ -25,7 +25,7 @@ class Utenti{
     }
     public function setCarta($_carta)
     {
-        $this->carta=$_carta;
+        $this->carta[]=$_carta;
     }
     public function setSconto($_sconto)
     {
